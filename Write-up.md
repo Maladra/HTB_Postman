@@ -4,8 +4,8 @@ Write-Up pour la machine : POSTMAN
 Postman est une machine identifiée comme "easy".
 
 
-I). Nmap
-Nous commencerons pazr une phase de reconnaissance a l'aide de Nmap avec la commande `nmap -sV -T4 -v 10.10.10.160`
+1). Nmap
+Nous commencerons par une phase de reconnaissance à l'aide de Nmap avec la commande `nmap -sV -T4 -v 10.10.10.160`
     -sV : permet de sonder les ports pour déterminer le service et la version derrière le port.
     -T4 : Determine le timing de l'attaque (sa vitesse)
     -v : pour avoir une sortie davantage verbeuse.
